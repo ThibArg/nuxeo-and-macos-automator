@@ -7,6 +7,9 @@ It's **_amazing_** what you can do with **_Automator_** on Mac OS.
 
 For example, say you have [Nuxeo Drive](http://doc.nuxeo.com/x/04HQ) installed and want to send files/folders to Nuxeo _via_ Nuxeo Drive, without navigating to the Nuxeo Drive folder: Just copy the two Automator workflows, `Nuxeo Drive/ Move to the "Nuxeo Drive" folder.workflow` and `Nuxeo Drive/ Copy to the "Nuxeo Drive" folder.workflow` (which are in the `Services` folder of this repository) to your Library/Services folder<sup>(1)</sup>. They are immediately available when you right-click on items, file(s)/folder(s), in the Finder.
 
+**NOTICE**: Because the `.workflow` are Mac OS _packages_, we recommend you either download this whole set of utilites as `.zip`, or clone the repository. This way, you'll have the packages being displayed as a single files.
+
+**OTHER NOTICE**: There is no way the thing you'll find in this repository will work on a Linux or a Windows box :-), this is 100% Mac OS specific
 
 Also, please have a look at their content with Automator (just open them with Automator) to see how easy it is to create a Service with Automator. You will see that 80% of the script is about checking all is good (we do have a `Nuxeo Drive` folder, the destination is in this folder, etc.)
 
